@@ -1,0 +1,127 @@
+/* General styling */
+
+body {
+    background: #f5f5f5;
+    line-height: 1.5;
+}
+
+.col-md-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col-md-8 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.company {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    padding: 15px
+}
+
+
+/* side-bar styling */
+
+.side-bar {
+    background: #ffffff;
+}
+
+.side-bar .name {
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.side-bar .personal-info {
+    padding: 25px;
+}
+
+.side-bar ul {
+    list-style-type: none;
+}
+
+.side-bar .personal-info li span {
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.side-bar .personal-info li p {
+    line-height: 30px;
+}
+
+
+.img-thumbnail {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* tablink style */
+.tablink {
+    margin-bottom: 20px;
+}
+
+
+/* Professional Experience styling */
+
+.job-title {
+    padding: 15px 0px;
+    vertical-align: baseline;
+}
+
+.position {
+    padding-left: 7px;
+}
+
+.date  {
+    float: right;
+    padding-right: 7px;
+}
+
+.accomplishments h5 {
+    padding-left: 7px;
+}
+
+/* card-deck style */
+.card-deck {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #007bff;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+
+.tablink:hover {
+    transition-property: background-color;
+    transition-duration: 0.9s;
+    background-color: #777;
+    
+}
